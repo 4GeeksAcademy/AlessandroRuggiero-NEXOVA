@@ -1,107 +1,107 @@
-Welcome to Nexova Solutions
-AI Engineering · 4Geeks Academy — Company Briefing
-Nexova Solutions is a human resources consulting and talent acquisition firm founded in 2011, headquartered in Valencia, Spain, with an expansion office in Miami, Florida. The company has 120 employees and generates approximately 8 million dollars in annual revenue across three business lines: executive and mid-management headhunting, customer support team outsourcing for technology companies, and corporate training in soft skills and leadership.
+Bienvenidos a Nexova Solutions
+Descripción de la empresa
 
-Nexova's clients are mid-sized companies — mostly in technology, retail, and financial services — that have decided to outsource some or all of their talent management. They come to Nexova because finding the right people, training them, and keeping them engaged is hard, and Nexova has spent twelve years building the expertise to do it well.
+Nexova Solutions es una empresa de consultoría de recursos humanos y adquisición de talento fundada en 2011, con sede en Valencia, España, y una oficina de expansión en Miami, Florida. Cuenta con 120 empleados y genera aproximadamente 8 millones de dólares de ingresos anuales en tres líneas de negocio: selección de directivos y mandos intermedios, externalización de equipos de atención al cliente para empresas tecnológicas y formación corporativa en habilidades interpersonales y liderazgo.
 
-How the company is organised
-Nexova is led by Laura Mendoza, CEO since the company's founding. She built the business from a two-person consultancy into a 120-person firm operating in two countries. She is direct, results-focused, and has a clear view of what Nexova needs to become — she just needs the right tools to get there.
+Los clientes de Nexova son empresas medianas —principalmente de tecnología, comercio minorista y servicios financieros— que han decidido externalizar parte o la totalidad de la gestión de talento. Acuden a Nexova porque encontrar a las personas adecuadas, formarlas y mantener su compromiso es difícil, y Nexova lleva doce años desarrollando la experiencia necesaria para hacerlo bien.
 
-The company is organised around the following areas:
+## Organización de la empresa
 
-Talent Selection Operations is the core of what Nexova does and its main source of revenue. Javier Almeida manages a team of 40 selection consultants who run recruitment processes on behalf of clients — from the initial briefing through CV screening, interviews, and final placement. Every step of this process is currently done manually.
+Nexova está dirigida por Laura Mendoza, directora ejecutiva desde la fundación de la empresa. Laura convirtió una consultora de dos personas en una firma de 120 empleados que opera en dos países. Es directa, se centra en los resultados y tiene una visión clara de lo que Nexova necesita llegar a ser; necesita las herramientas adecuadas para conseguirlo.
 
-Corporate Training designs and delivers training programmes for client companies. Elena Vargas leads a team of 12 that runs courses, workshops, and webinars on topics ranging from leadership to communication to team management. The catalogue exists, enrolments happen, but there is almost no infrastructure behind it — just a PDF, a Google Form, and a spreadsheet.
+La empresa se organiza en las siguientes áreas:
 
-Customer Support Outsourcing is where Nexova provides client companies with dedicated support teams. Roberto Díaz manages 30 agents who handle customer incidents on behalf of technology, retail, and finance clients, working by phone, email, and chat. The team is skilled, but they operate without a knowledge base, without real-time visibility, and with a resolution time that regularly misses the committed service level.
+**Operaciones de Selección de Talento** es el núcleo de la actividad de Nexova y su principal fuente de ingresos. Javier Almeida dirige un equipo de 40 consultores de selección que gestionan procesos de contratación para sus clientes, desde la reunión inicial hasta el filtrado de CV, las entrevistas y la selección final. Actualmente, todas las etapas se realizan de forma manual.
 
-Sales and Business Development drives the growth of the business. Megan Clarke leads a team of 18 people — account managers who look after existing clients and SDRs who pursue new ones. The team has a CRM but uses it inconsistently, does most prospecting manually, and loses deals they should not lose simply because follow-up falls through the cracks.
+**Formación Corporativa** diseña e imparte programas formativos para empresas clientes. Elena Vargas dirige un equipo de 12 personas que organiza cursos, talleres y seminarios web sobre liderazgo, comunicación y gestión de equipos, entre otros temas. Existe un catálogo y se realizan inscripciones, pero casi no hay infraestructura: solo un PDF, un formulario de Google y una hoja de cálculo.
 
-Marketing and Communications manages Nexova's external presence: the corporate website, LinkedIn, the monthly newsletter, and the blog. Carmen Ruiz leads a small team that produces everything manually and has limited visibility into what actually works.
+**Externalización de Atención al Cliente** proporciona equipos de soporte dedicados a empresas clientes. Roberto Díaz dirige a 30 agentes que atienden por teléfono, correo electrónico y chat incidencias de clientes de los sectores tecnológico, minorista y financiero. El equipo tiene experiencia, pero trabaja sin una base de conocimiento, sin visibilidad en tiempo real y con tiempos de resolución que incumplen habitualmente el nivel de servicio comprometido.
 
-Human Resources handles everything related to Nexova's own 120 employees: contracts, onboarding, holidays, performance reviews, and day-to-day queries. Patricia Solís manages this with a team of four, largely by email and spreadsheet.
+**Ventas y Desarrollo de Negocio** impulsa el crecimiento de la empresa. Megan Clarke dirige un equipo de 18 personas: gestores de cuentas que atienden a clientes actuales y representantes de desarrollo de ventas (SDR) que buscan nuevos clientes. El equipo tiene un CRM, pero lo utiliza de forma irregular; la mayor parte de la prospección es manual y se pierden oportunidades por falta de seguimiento.
 
-Technology and Infrastructure is led by CTO Sergio Molina, who has a team of six. The current technology estate is a collection of tools that were each introduced to solve a specific problem and have never been properly connected: a legacy helpdesk, a CRM, a home-built applicant tracking system from the early 2010s, and Google Workspace as the connective tissue between everything. There is no telemetry, no centralised logging, and no clear picture of what is happening across the business at any given moment.
+**Marketing y Comunicaciones** gestiona la presencia externa de Nexova: el sitio web corporativo, LinkedIn, el boletín mensual y el blog. Carmen Ruiz dirige un equipo pequeño que produce todo el contenido manualmente y tiene poca visibilidad sobre su eficacia.
 
-Executive Leadership centres on Laura, who receives a weekly PDF report prepared manually by each department head — a process that takes hours of their time every week and still delivers information that is several days old by the time it reaches her.
+**Recursos Humanos** se ocupa de los 120 empleados de Nexova: contratos, incorporación, vacaciones, evaluaciones de desempeño y consultas cotidianas. Patricia Solís gestiona estas tareas con un equipo de cuatro personas, principalmente mediante correo electrónico y hojas de cálculo.
 
-Where the company stands today
-Nexova has a strong reputation in its markets, a deep network of candidates and clients built over twelve years, and a team that genuinely knows how to find, develop, and support talent. What it does not have is the infrastructure to operate at scale.
+**Tecnología e Infraestructura** está dirigida por el CTO Sergio Molina, que cuenta con un equipo de seis personas. El entorno tecnológico actual es un conjunto de herramientas introducidas para resolver problemas concretos y que nunca se han conectado adecuadamente: un sistema de soporte heredado, un CRM, un sistema propio de seguimiento de candidatos creado a principios de la década de 2010 y Google Workspace como nexo entre todo. No hay telemetría ni registro centralizado, y no existe una visión clara de lo que ocurre en la empresa en cada momento.
 
-The consequences are tangible: consultants spend most of their time on manual tasks that could be automated, clients have no visibility into the status of their recruitment processes, the training catalogue is invisible to most potential buyers, the support team misses its SLAs, and leadership makes decisions based on data that is always a week behind.
+**Dirección Ejecutiva** está centrada en Laura, quien recibe un informe semanal en PDF preparado manualmente por cada responsable de departamento. Este proceso consume varias horas cada semana y, aun así, la información llega con varios días de retraso.
 
-New platforms — automated, data-driven, and built for scale — are starting to compete directly with what Nexova offers. Laura knows that the window to respond is not unlimited.
+## Situación actual de la empresa
 
-She has assembled an AI Engineering team to build the systems, automations, and intelligent tools that will allow Nexova to do what it already does well — but faster, at greater scale, and with far less manual effort.
+Nexova tiene una sólida reputación en sus mercados, una amplia red de candidatos y clientes construida durante doce años y un equipo que sabe encontrar, desarrollar y apoyar el talento. Sin embargo, carece de la infraestructura necesaria para operar a escala.
 
-You are part of that team.
+Las consecuencias son concretas: los consultores dedican gran parte de su tiempo a tareas manuales automatizables, los clientes no pueden consultar el estado de sus procesos de selección, el catálogo de formación es invisible para muchos compradores potenciales, el equipo de soporte incumple sus SLA y la dirección toma decisiones basadas en datos que llevan una semana de retraso.
 
-The Departments and Their Problems
-🌐 Marketing and Communications
-Manager: Carmen Ruiz
+Nuevas plataformas automatizadas, basadas en datos y preparadas para escalar empiezan a competir directamente con la oferta de Nexova. Laura sabe que el margen para responder no es ilimitado.
 
-The corporate website was built in 2019 and hasn't been meaningfully updated — it's slow, not accessible, and doesn't reflect the company's current positioning. Content is produced manually, and the team doesn't measure the real impact of their work: they know how many website visits they get, but not what converts.
+Ha reunido un equipo de ingeniería de IA para crear los sistemas, las automatizaciones y las herramientas inteligentes que permitan a Nexova hacer lo que ya hace bien, pero con mayor rapidez, a más escala y con mucho menos trabajo manual.
 
-What they need: A full redesign of the corporate website with SEO/GEO optimisation and schema.org markup, an AI-assisted content pipeline, and a marketing metrics dashboard tracking visits, traffic sources, and conversion rates.
+## Áreas y problemas
 
-💼 Sales and Business Development
-Manager: Marcos Ibáñez (18-person team: 6 account managers, 12 SDRs)
+### 🌐 Marketing y Comunicaciones
+**Responsable:** Carmen Ruiz
 
-SDRs prospect manually on LinkedIn, export lists to Excel, and follow up by email with no automation. They have a CRM (HubSpot) but only 40% of the team updates it consistently. Many deals are lost due to lack of follow-up, and there is no visibility into which prospects are most likely to close.
+El sitio web corporativo se creó en 2019 y no se ha actualizado de forma significativa. Es lento, no es accesible y no refleja el posicionamiento actual de la empresa. El contenido se produce manualmente y el equipo no mide su impacto real: conoce el número de visitas, pero no qué acciones convierten.
 
-What they need: A sales pipeline dashboard, a prospecting sequence automation (first contact → follow-up → close or discard), deal alerts for inactive conversations, and an AI agent that suggests personalised proposal angles based on a prospect's profile.
+**Necesidades:** rediseño completo del sitio web con optimización SEO/GEO y marcado schema.org, un flujo de producción de contenido asistido por IA y un dashboard de métricas de marketing que mida visitas, fuentes de tráfico y tasas de conversión.
 
-🧑‍🤝‍🧑 Human Resources (Internal)
-Manager: Patricia Solís
+### 💼 Ventas y Desarrollo de Negocio
+**Responsable:** Marcos Ibáñez (equipo de 18 personas: 6 gestores de cuentas y 12 SDR)
 
-Holiday requests, absences, and HR queries are managed by email and spreadsheets. New employee onboarding is manual. Performance reviews happen twice a year through Google Forms that nobody reviews systematically. There are no visibility metrics: no turnover rate, no absenteeism data, no average time-to-fill for internal roles.
+Los SDR buscan prospectos manualmente en LinkedIn, exportan listas a Excel y hacen seguimiento por correo electrónico sin automatización. Tienen un CRM (HubSpot), pero solo el 40 % del equipo lo actualiza de forma constante. Se pierden oportunidades por falta de seguimiento y no hay visibilidad sobre qué prospectos tienen más posibilidades de cerrar.
 
-What they need: An internal HR portal, an automated onboarding flow with progressive checklists, an HR KPI dashboard, and an internal HR agent that answers team questions about policies and benefits.
+**Necesidades:** dashboard del pipeline de ventas, automatización de secuencias de prospección (primer contacto → seguimiento → cierre o descarte), alertas de oportunidades sin actividad y un agente de IA que sugiera enfoques personalizados para las propuestas según el perfil del prospecto.
 
-🔍 Talent Selection Operations (core business)
-Manager: Javier Almeida (40 selection consultants)
+### 🧑‍🤝‍🧑 Recursos Humanos (internos)
+**Responsable:** Patricia Solís
 
-CV screening is manual: each consultant reads 30 to 80 CVs per search. Candidate communication is done by individual email with no templates. There is no system to track the real-time status of each candidate — clients call to ask. Matching between candidate and vacancy relies entirely on consultant intuition.
+Las solicitudes de vacaciones, las ausencias y las consultas de RR. HH. se gestionan por correo electrónico y hojas de cálculo. La incorporación de nuevos empleados es manual. Las evaluaciones de desempeño se hacen dos veces al año mediante formularios de Google que nadie revisa sistemáticamente. No hay métricas de visibilidad: se desconocen la rotación, el absentismo y el tiempo medio para cubrir vacantes internas.
 
-What they need: An AI-assisted selection pipeline with automatic CV scoring and ranking, a RAG system over the candidate database ("find profiles with B2B sales experience and C1 English"), a candidate portal with real-time status, and a communication agent that sends automatic status emails.
+**Necesidades:** portal interno de RR. HH., flujo automatizado de incorporación con listas de tareas progresivas, dashboard de indicadores de RR. HH. y un agente interno que responda preguntas del equipo sobre políticas y beneficios.
 
-🎓 Corporate Training
-Manager: Elena Vargas (12-person team)
+### 🔍 Operaciones de Selección de Talento (actividad principal)
+**Responsable:** Javier Almeida (40 consultores de selección)
 
-The training catalogue lives in a PDF updated quarterly. Enrolments are handled through a Google Form managed manually in a spreadsheet. There is no record of who completed which training beyond Excel attendance lists. Personalisation is zero: every client receives the same catalogue proposal regardless of their needs.
+El filtrado de CV es manual: cada consultor lee entre 30 y 80 CV por búsqueda. La comunicación con los candidatos se realiza mediante correos individuales sin plantillas. No existe un sistema para consultar el estado de cada candidatura en tiempo real, por lo que los clientes llaman para preguntar. La correspondencia entre candidatos y vacantes depende por completo de la intuición de los consultores.
 
-What they need: A searchable training catalogue with online enrolment, a recommendation system that suggests programmes based on client profile, a learner portal with progress tracking, and a training advisory chatbot that builds personalised training plans.
+**Necesidades:** flujo de selección asistido por IA con puntuación y clasificación automáticas de CV, un sistema RAG sobre la base de datos de candidatos (por ejemplo, «encuentra perfiles con experiencia en ventas B2B e inglés C1»), portal de candidatos con estado en tiempo real y agente de comunicación que envíe automáticamente actualizaciones de estado.
 
-📞 Customer Support (outsourced service)
-Manager: Roberto Díaz (30 agents)
+### 🎓 Formación Corporativa
+**Responsable:** Elena Vargas (equipo de 12 personas)
 
-The 30 agents handle incidents from Nexova's outsourcing clients (tech, retail, finance) by phone, email, and web chat. There is no centralised knowledge base — agents resolve issues from experience and a shared Word document on Drive. Average resolution time is 48 hours; the committed SLA is 24 hours. Supervisors have no real-time visibility into workload or backlog state.
+El catálogo de formación está en un PDF que se actualiza trimestralmente. Las inscripciones se gestionan mediante un formulario de Google y una hoja de cálculo. No hay registro de quién completó cada formación más allá de las listas de asistencia en Excel. No existe personalización: todos los clientes reciben la misma propuesta de catálogo, independientemente de sus necesidades.
 
-What they need: A first-line support chatbot that resolves 40% of queries without human intervention using RAG, a centralised knowledge base with semantic search, a real-time support dashboard, and a ticket sentiment analysis tool that identifies dissatisfied clients before they escalate.
+**Necesidades:** catálogo de formación consultable e inscripciones en línea, sistema de recomendación de programas según el perfil del cliente, portal del alumno con seguimiento del progreso y chatbot asesor que elabore planes de formación personalizados.
 
-💻 Technology and Infrastructure
-CTO: Sergio Molina (6-person team)
+### 📞 Atención al Cliente (servicio externalizado)
+**Responsable:** Roberto Díaz (30 agentes)
 
-The technology stack is a patchwork of disconnected tools: HubSpot, legacy Zendesk, Google Workspace, a home-built ATS from the 2010s, and multiple spreadsheets. There is no telemetry or centralised logging. When something fails, the team finds out through users. Deployments are manual.
+Los 30 agentes atienden por teléfono, correo electrónico y chat web las incidencias de los clientes de externalización de Nexova en tecnología, comercio minorista y finanzas. No existe una base de conocimiento centralizada: los agentes resuelven los problemas según su experiencia y un documento de Word compartido en Drive. El tiempo medio de resolución es de 48 horas, frente a un SLA comprometido de 24 horas. Los supervisores no tienen visibilidad en tiempo real sobre la carga de trabajo ni el estado de la cola de incidencias.
 
-What they need: Centralised telemetry and logging, a data pipeline that feeds all company dashboards, real-time monitoring with automatic alerts, and an internal engineering agent that answers architecture questions by querying technical documentation.
+**Necesidades:** chatbot de primera línea que resuelva el 40 % de las consultas sin intervención humana mediante RAG, base de conocimiento centralizada con búsqueda semántica, dashboard de soporte en tiempo real y herramienta de análisis de sentimiento de tickets para identificar clientes insatisfechos antes de que escalen el problema.
 
-📊 Executive Direction
-CEO: Laura Mendoza
+### 💻 Tecnología e Infraestructura
+**CTO:** Sergio Molina (equipo de 6 personas)
 
-Laura receives a weekly PDF report prepared manually by each department head — preparation takes 4 to 8 hours per manager. There is no unified view of the business. Strategic decisions are made with data that is a week old.
+La tecnología está formada por herramientas desconectadas: HubSpot, Zendesk heredado, Google Workspace, un ATS propio creado en la década de 2010 y varias hojas de cálculo. No hay telemetría ni registro centralizado. Cuando algo falla, el equipo se entera por los usuarios. Los despliegues son manuales.
 
-What she needs: A unified executive dashboard with real-time KPIs from all areas, an automatically generated weekly report, strategic threshold alerts, and a natural-language AI assistant she can query directly.
+**Necesidades:** telemetría y logging centralizados, pipeline de datos que alimente los dashboards de la empresa, monitorización en tiempo real con alertas automáticas y agente interno de ingeniería que responda preguntas sobre arquitectura consultando la documentación técnica.
 
-Why Choose Nexova?
-Choose Nexova if you are drawn to:
+### 📊 Dirección Ejecutiva
+**CEO:** Laura Mendoza
 
-People and data — building systems that rank candidates, track learners, and measure sales team performance.
-B2B services — your users are not anonymous consumers but professional teams with specific workflows and expectations.
-AI at the core of the business — at Nexova, AI doesn't support the product; it is the competitive advantage. CV scoring, candidate matching, RAG over a knowledge base, and first-line support agents are central deliverables, not optional enhancements.
-Cross-functional complexity — you will build for five very different teams (operations, sales, HR, training, support), each with different data, different users, and different definitions of success.
-The AI challenges at Nexova include semantic search over a candidate database, first-line support automation that must respect SLAs, a CV scoring pipeline with explainable rankings, and a recommendation engine for training programmes. If you want your portfolio to demonstrate AI Engineering applied directly to a company's core operations — not just its internal tools — Nexova is your company.
+Laura recibe un informe semanal en PDF preparado manualmente por cada responsable de departamento; prepararlo consume entre 4 y 8 horas por responsable. No hay una visión unificada de la empresa. Las decisiones estratégicas se toman con datos que tienen una semana de antigüedad.
 
---
+**Necesidades:** dashboard ejecutivo unificado con KPIs en tiempo real de todas las áreas, generación automática del informe semanal, alertas por umbrales estratégicos y asistente de IA en lenguaje natural al que pueda consultar directamente.
 
-Internal document — 4Geeks Academy · AI Engineering Track For exclusive use in programme project generation
+## ¿Por qué elegir Nexova?
+
+Nexova puede ser adecuada para quienes se interesan por:
+
+- **Personas y datos:** crear sistemas que clasifiquen candidatos, hagan seguimiento del aprendizaje y midan el rendimiento de los equipos de ventas.
+- **Servicios B2B:** los usuarios son equipos profesionales con flujos de trabajo y expectativas concretos, no consumidores anónimos.
+- **IA en el núcleo del negocio:** la IA es una ventaja competitiva. La puntuación de CV, la correspondencia entre candidatos y vacantes, el RAG sobre una base de conocimiento y los agentes de soporte de primera línea son entregables centrales, no mejoras opcionales.
+- **Complejidad entre áreas:** se trabaja para equipos distintos —operaciones, ventas, RR. HH., formación y soporte— con datos, usuarios y criterios de éxito diferentes.
+
+Los retos de IA de Nexova incluyen la búsqueda semántica en una base de datos de candidatos, la automatización del soporte de primera línea respetando los SLA, la clasificación explicable de CV y un motor de recomendación de programas formativos. El objetivo es aplicar la ingeniería de IA directamente a las operaciones principales de la empresa.

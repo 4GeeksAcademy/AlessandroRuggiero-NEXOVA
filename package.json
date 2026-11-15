@@ -1,0 +1,12 @@
+{
+  "name": "nexova-step1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
