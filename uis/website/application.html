@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Comparte tu experiencia e intereses profesionales con Nexova para explorar oportunidades de talento.">
+	<meta name="theme-color" content="#0b1220">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Registro de talento | Nexova">
+	<meta property="og:description" content="Cuéntanos sobre tu experiencia, tus intereses y disponibilidad profesional.">
+	<meta property="og:url" content="https://nexova.com/application.html">
+	<link rel="icon" type="image/svg+xml" href="assets/nexova-logo.svg">
+	<link rel="canonical" href="https://nexova.com/application.html">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<!-- CDN para prototipo; producción debe usar una compilación optimizada de Tailwind. -->
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					colors: {
+						midnight: '#0B1220',
+						deepblue: '#14243A',
+						nexova: '#0D9488',
+						mint: '#5EEAD4',
+						cloud: '#F4F7FB'
+					},
+					fontFamily: {
+						display: ['Manrope', 'sans-serif'],
+						sans: ['DM Sans', 'sans-serif']
+					}
+				}
+			}
+		};
+	</script>
+	<link rel="stylesheet" href="style.css">
+	<title>Registro de talento | Nexova</title>
+</head>
+<body class="font-sans text-midnight antialiased application-page">
+	<a class="skip-link" href="#contenido">Saltar al contenido</a>
+	<header class="site-header site-header--light">
+		<div class="site-header__inner">
+			<a class="brand-lockup" href="index.html" aria-label="Nexova, inicio"><img class="brand-mark" src="assets/nexova-logo.svg" alt="" width="40" height="40"><span class="brand-name">nexova<span class="brand-dot">.</span></span></a>
+			<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Abrir menú">
+				<span></span><span></span>
+			</button>
+			<nav class="site-nav" id="site-navigation" aria-label="Navegación principal">
+				<a href="index.html#inicio">Inicio</a>
+				<a href="index.html#servicios">Servicios</a>
+				<a href="application.html" aria-current="page">Talento</a>
+				<a href="index.html#contacto">Contacto</a>
+				<a class="nav-cta" href="#formulario">Enviar perfil <span aria-hidden="true">↘</span></a>
+			</nav>
+		</div>
+	</header>
+
+	<main id="contenido">
+		<section class="application-hero" aria-labelledby="application-title">
+			<div class="application-hero__inner">
+				<div>
+					<p class="eyebrow eyebrow--light"><span class="eyebrow__line"></span> Tu próximo capítulo</p>
+					<h1 id="application-title">El talento también elige dónde crecer.</h1>
+					<p>Cuéntanos qué sabes hacer y qué oportunidades te interesan. Queremos conocerte.</p>
+				</div>
+				<div class="application-hero__aside" aria-hidden="true"><span>n.</span><i></i><small>Talento en movimiento</small></div>
+			</div>
+		</section>
+
+		<section class="application-section" aria-labelledby="form-title">
+			<div class="application-layout">
+				<aside class="application-aside">
+					<p class="eyebrow"><span class="eyebrow__line"></span> Registro profesional</p>
+					<h2 id="form-title">Hablemos de ti.</h2>
+					<p>Completa tus datos para que nuestro equipo pueda conocer tu perfil e intereses profesionales.</p>
+					<div class="aside-note"><span class="aside-note__icon" aria-hidden="true">↗</span><p>¿Eres una empresa buscando talento? Escríbenos a <a href="mailto:contacto@nexova.com">contacto@nexova.com</a></p></div>
+				</aside>
+
+				<div class="form-column" id="formulario">
+					<div class="form-error-summary" id="form-errors" role="alert" tabindex="-1" hidden>
+						<h2>Revisa estos campos para continuar</h2>
+						<ul></ul>
+					</div>
+					<div class="form-success" id="form-success" role="status" tabindex="-1" hidden>
+						<span class="success-mark" aria-hidden="true">✓</span>
+						<p class="eyebrow">Registro recibido</p>
+						<h2>¡Gracias por tu interés en Nexova!</h2>
+						<p>Hemos recibido tu información. Nuestro equipo de selección la revisará y te contactaremos en caso de que tu perfil encaje con alguna de nuestras oportunidades actuales o futuras.</p>
+						<p>Mientras tanto, síguenos en <a href="https://linkedin.com/company/nexova" target="_blank" rel="noopener noreferrer">LinkedIn</a> para estar al día de nuestras vacantes y contenido sobre desarrollo profesional.</p>
+						<p class="simulation-note">Este formulario es una demostración: la información no se envía ni se guarda.</p>
+					</div>
+
+					<form id="talent-form" novalidate>
+						<div class="form-section-heading"><span>01</span><h2>Información de contacto</h2></div>
+						<div class="form-grid">
+							<div class="form-field form-field--wide">
+								<label for="full-name">Nombre completo <span aria-hidden="true">*</span></label>
+								<input id="full-name" name="fullName" type="text" autocomplete="name" required aria-describedby="full-name-error" />
+								<p class="field-error" id="full-name-error"></p>
+							</div>
+							<div class="form-field">
+								<label for="email">Email <span aria-hidden="true">*</span></label>
+								<input id="email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="email-error" />
+								<p class="field-error" id="email-error"></p>
+							</div>
+							<div class="form-field">
+								<label for="phone">Teléfono <span aria-hidden="true">*</span></label>
+								<input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+34 612 345 678" required aria-describedby="phone-hint phone-error" />
+								<p class="field-hint" id="phone-hint">Incluye el prefijo internacional.</p>
+								<p class="field-error" id="phone-error"></p>
+							</div>
+							<div class="form-field">
+								<label for="country">País de residencia <span aria-hidden="true">*</span></label>
+								<select id="country" name="country" required aria-describedby="country-error">
+									<option value="">Selecciona una opción</option>
+									<option value="España">España</option>
+									<option value="Estados Unidos">Estados Unidos</option>
+									<option value="Otro">Otro</option>
+								</select>
+								<p class="field-error" id="country-error"></p>
+							</div>
+							<div class="form-field">
+								<label for="experience">Años de experiencia <span aria-hidden="true">*</span></label>
+								<input id="experience" name="experience" type="number" min="0" max="50" step="1" inputmode="numeric" required aria-describedby="experience-error" />
+								<p class="field-error" id="experience-error"></p>
+							</div>
+						</div>
+
+						<div class="form-section-heading"><span>02</span><h2>Tu perfil profesional</h2></div>
+						<div class="form-grid">
+							<div class="form-field">
+								<label for="sector">Sector de interés <span aria-hidden="true">*</span></label>
+								<select id="sector" name="sector" required aria-describedby="sector-error">
+									<option value="">Selecciona una opción</option>
+									<option value="Tecnología">Tecnología</option>
+									<option value="Retail">Retail</option>
+									<option value="Servicios Financieros">Servicios Financieros</option>
+									<option value="Consultoría">Consultoría</option>
+									<option value="Otro">Otro</option>
+								</select>
+								<p class="field-error" id="sector-error"></p>
+							</div>
+							<div class="form-field">
+								<label for="english">Nivel de inglés <span aria-hidden="true">*</span></label>
+								<select id="english" name="english" required aria-describedby="english-error">
+									<option value="">Selecciona una opción</option>
+									<option value="Básico">Básico</option>
+									<option value="Intermedio">Intermedio</option>
+									<option value="Avanzado">Avanzado</option>
+									<option value="Nativo">Nativo</option>
+								</select>
+								<p class="field-error" id="english-error"></p>
+							</div>
+							<fieldset class="form-field form-field--wide radio-field" aria-describedby="availability-error">
+								<legend>Disponibilidad <span aria-hidden="true">*</span></legend>
+								<div class="radio-options">
+									<label class="radio-option"><input id="availability" type="radio" name="availability" value="Inmediata"><span>Inmediata</span></label>
+									<label class="radio-option"><input type="radio" name="availability" value="1 mes"><span>1 mes</span></label>
+									<label class="radio-option"><input type="radio" name="availability" value="2-3 meses"><span>2-3 meses</span></label>
+									<label class="radio-option"><input type="radio" name="availability" value="Solo explorando"><span>Solo explorando</span></label>
+								</div>
+								<p class="field-error" id="availability-error"></p>
+							</fieldset>
+							<div class="form-field form-field--wide">
+								<label for="linkedin">LinkedIn <span class="optional-label">Opcional</span></label>
+								<input id="linkedin" name="linkedin" type="url" inputmode="url" placeholder="https://www.linkedin.com/in/tu-perfil" aria-describedby="linkedin-error" />
+								<p class="field-error" id="linkedin-error"></p>
+							</div>
+							<div class="form-field form-field--wide">
+								<div class="label-row"><label for="comments">Comentarios <span class="optional-label">Opcional</span></label><span class="character-count" id="comments-count" aria-live="polite">500 caracteres restantes</span></div>
+								<textarea id="comments" name="comments" rows="5" maxlength="500" aria-describedby="comments-hint comments-count comments-error"></textarea>
+								<p class="field-hint" id="comments-hint">Comparte cualquier detalle que nos ayude a conocerte mejor.</p>
+								<p class="field-error" id="comments-error"></p>
+							</div>
+						</div>
+
+						<div class="consent-field">
+							<input id="consent" name="consent" type="checkbox" required aria-describedby="consent-error" />
+							<label for="consent">Acepto el tratamiento de mis datos para que Nexova pueda valorar mi perfil profesional. <span aria-hidden="true">*</span></label>
+							<p class="field-error" id="consent-error"></p>
+						</div>
+						<p class="required-note">* Campos obligatorios</p>
+						<div class="form-actions">
+							<button class="button button--teal form-submit" type="submit">Enviar mi perfil <span aria-hidden="true">↗</span></button>
+							<button class="button button--outline form-reset" id="clear-form" type="button">Limpiar formulario</button>
+						</div>
+						<p class="form-reset-status" id="form-reset-status" role="status" aria-live="polite"></p>
+						<p class="form-footnote">En este prototipo, el envío se simula y los datos permanecen en tu navegador.</p>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="site-footer__top"><a class="brand-lockup brand-lockup--footer" href="index.html" aria-label="Nexova, inicio"><img class="brand-mark" src="assets/nexova-logo.svg" alt="" width="36" height="36"><span class="brand-name">nexova<span class="brand-dot">.</span></span></a><p>El talento mueve todo lo que viene.</p><div class="footer-socials"><a href="https://linkedin.com/company/nexova" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://instagram.com/nexova" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a></div></div>
+		<div class="site-footer__bottom"><span>© 2025 Nexova. Todos los derechos reservados.</span><a href="index.html">Volver al inicio <span aria-hidden="true">↗</span></a></div>
+	</footer>
+	<script src="validation.js" defer></script>
+</body>
+</html>

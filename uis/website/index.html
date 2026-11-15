@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consultora de recursos humanos y adquisición de talento. En Nexova construimos equipos excepcionales para empresas en crecimiento desde 2011.">
+    <meta name="theme-color" content="#0b1220">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nexova | Equipos excepcionales para empresas en crecimiento">
+    <meta property="og:description" content="Consultoría de recursos humanos y adquisición de talento en España y Estados Unidos.">
+    <meta property="og:url" content="https://nexova.com/">
+    <link rel="icon" type="image/svg+xml" href="assets/nexova-logo.svg">
+    <link rel="canonical" href="https://nexova.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CDN para prototipo; producción debe usar una compilación optimizada de Tailwind. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#0B1220',
+                        deepblue: '#14243A',
+                        nexova: '#0D9488',
+                        mint: '#5EEAD4',
+                        cloud: '#F4F7FB'
+                    },
+                    fontFamily: {
+                        display: ['Manrope', 'sans-serif'],
+                        sans: ['DM Sans', 'sans-serif']
+                    }
+                }
+            }
+        };
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Nexova | Equipos excepcionales para empresas en crecimiento</title>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Nexova",
+        "description": "Consultora de recursos humanos y adquisición de talento",
+        "url": "https://nexova.com/",
+        "foundingDate": "2011",
+        "address": [
+            {
+                "@type": "PostalAddress",
+                "addressCountry": "ES",
+                "addressLocality": "Valencia",
+                "addressRegion": "Comunidad Valenciana"
+            },
+            {
+                "@type": "PostalAddress",
+                "addressCountry": "US",
+                "addressLocality": "Miami",
+                "addressRegion": "Florida"
+            }
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+34-960-123-456",
+            "contactType": "customer service",
+            "availableLanguage": ["Spanish", "English"]
+        },
+        "sameAs": [
+            "https://linkedin.com/company/nexova",
+            "https://instagram.com/nexova"
+        ]
+    }
+    </script>
+</head>
+<body class="font-sans text-midnight antialiased">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a class="brand-lockup" href="index.html" aria-label="Nexova, inicio"><img class="brand-mark" src="assets/nexova-logo.svg" alt="" width="40" height="40"><span class="brand-name">nexova<span class="brand-dot">.</span></span></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Abrir menú">
+                <span></span><span></span>
+            </button>
+            <nav class="site-nav" id="site-navigation" aria-label="Navegación principal">
+                <a href="#inicio" aria-current="page">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="application.html">Talento</a>
+                <a href="#contacto">Contacto</a>
+                <a class="nav-cta" href="application.html">Únete al talento <span aria-hidden="true">↗</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido">
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+            <div class="hero__grid">
+                <div class="hero__copy">
+                    <p class="eyebrow eyebrow--light"><span class="eyebrow__line"></span> Personas que impulsan el crecimiento</p>
+                    <h1 id="hero-title">Construimos equipos excepcionales para empresas en crecimiento</h1>
+                    <p class="hero__lead">Consultora de recursos humanos y adquisición de talento con más de 10 años ayudando a empresas de tecnología, retail y servicios financieros a encontrar y desarrollar el mejor talento.</p>
+                    <div class="hero__actions">
+                        <a class="button button--mint" href="application.html">Únete a nuestro banco de talento <span aria-hidden="true">↗</span></a>
+                        <a class="text-link text-link--light" href="#servicios">Conoce nuestros servicios <span aria-hidden="true">↓</span></a>
+                    </div>
+                    <div class="hero__footnote"><span class="status-dot"></span> Valencia · Miami <span class="hero__footnote-divider">/</span> Conectamos talento sin fronteras</div>
+                </div>
+                <div class="hero-art" aria-hidden="true">
+                    <div class="hero-art__frame">
+                        <div class="hero-art__orbit hero-art__orbit--one"></div>
+                        <div class="hero-art__orbit hero-art__orbit--two"></div>
+                        <div class="hero-art__ribbon hero-art__ribbon--back"></div>
+                        <div class="hero-art__ribbon hero-art__ribbon--front"></div>
+                        <span class="hero-art__node hero-art__node--one"></span>
+                        <span class="hero-art__node hero-art__node--two"></span>
+                        <span class="hero-art__node hero-art__node--three"></span>
+                        <span class="hero-art__spark">N<span>.</span></span>
+                    </div>
+                    <p class="hero-art__caption"><span>01 / 02</span> El talento transforma negocios</p>
+                </div>
+            </div>
+            <div class="hero__bottom" aria-hidden="true"><span>Human insight</span><span class="hero__bottom-line"></span><span>Measurable growth</span></div>
+        </section>
+
+        <section class="section section--light" id="servicios" aria-labelledby="services-title">
+            <div class="section-shell">
+                <div class="section-heading section-heading--split">
+                    <div>
+                        <p class="eyebrow"><span class="eyebrow__line"></span> Lo que hacemos</p>
+                        <h2 id="services-title">Talento para cada etapa de tu crecimiento.</h2>
+                    </div>
+                    <p class="section-heading__aside">Unimos conocimiento humano y ejecución rigurosa para que las organizaciones puedan avanzar con las personas adecuadas.</p>
+                </div>
+                <div class="service-grid">
+                    <article class="service-card">
+                        <div class="service-card__top"><span class="service-card__number">01</span><span class="line-icon" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><circle cx="16" cy="13" r="6"/><path d="M5 33c0-6.1 4.9-11 11-11s11 4.9 11 11M27 9a6 6 0 0 1 0 12m3 3c3.1 1.8 5 5.1 5 9"/></svg></span></div>
+                        <h3>Headhunting Ejecutivo</h3>
+                        <p>Búsqueda y selección de perfiles ejecutivos y mandos medios, con un proceso personalizado y garantía de reemplazo.</p>
+                        <a class="card-link" href="#contacto" aria-label="Consultar sobre Headhunting Ejecutivo">Hablemos <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="service-card service-card--featured">
+                        <div class="service-card__top"><span class="service-card__number">02</span><span class="line-icon" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M7 11h26v19H7zM13 17h14M13 22h9M14 30l-4 5m16-5 4 5"/><circle cx="29" cy="25" r="5"/></svg></span></div>
+                        <h3>Outsourcing de Atención al Cliente</h3>
+                        <p>Equipos especializados para empresas tecnológicas, con formación continua y supervisión dedicada.</p>
+                        <a class="card-link" href="#contacto" aria-label="Consultar sobre Outsourcing de Atención al Cliente">Hablemos <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__top"><span class="service-card__number">03</span><span class="line-icon" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M8 7h24v27H8zM14 14h12M14 20h12M14 26h7"/><path d="m26 27 3 3 6-7"/></svg></span></div>
+                        <h3>Formación Corporativa</h3>
+                        <p>Programas de soft skills y liderazgo, presenciales y online, adaptados a cada organización.</p>
+                        <a class="card-link" href="#contacto" aria-label="Consultar sobre Formación Corporativa">Hablemos <span aria-hidden="true">↗</span></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="process-section" aria-labelledby="process-title">
+            <div class="section-shell">
+                <div class="section-heading section-heading--split">
+                    <div>
+                        <p class="eyebrow"><span class="eyebrow__line"></span> Cómo trabajamos</p>
+                        <h2 id="process-title">Un recorrido claro para cada búsqueda.</h2>
+                    </div>
+                    <p class="section-heading__aside">En selección, el proceso descrito por Nexova va desde la reunión inicial hasta la selección final.</p>
+                </div>
+                <ol class="process-steps">
+                    <li class="process-step">
+                        <span class="process-step__number" aria-hidden="true">01</span>
+                        <h3>Reunión inicial</h3>
+                        <p>Entender la necesidad de contratación y el perfil buscado.</p>
+                    </li>
+                    <li class="process-step">
+                        <span class="process-step__number" aria-hidden="true">02</span>
+                        <h3>Filtrado de CV</h3>
+                        <p>Revisar los perfiles recibidos para cada búsqueda.</p>
+                    </li>
+                    <li class="process-step">
+                        <span class="process-step__number" aria-hidden="true">03</span>
+                        <h3>Entrevistas</h3>
+                        <p>Avanzar con las personas candidatas en el proceso.</p>
+                    </li>
+                    <li class="process-step">
+                        <span class="process-step__number" aria-hidden="true">04</span>
+                        <h3>Selección final</h3>
+                        <p>Concluir el proceso con la selección del perfil.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="proof-section" aria-labelledby="proof-title">
+            <div class="proof-section__inner">
+                <div class="proof-copy">
+                    <p class="eyebrow eyebrow--light"><span class="eyebrow__line"></span> Nuestra experiencia</p>
+                    <h2 id="proof-title">Experiencia cercana. <span>Perspectiva global.</span></h2>
+                    <p>Conocemos los retos de encontrar, desarrollar y acompañar al talento. Trabajamos junto a cada organización para construir soluciones que encajan con su realidad.</p>
+                    <a class="text-link text-link--light" href="#contacto">Conversemos sobre tu equipo <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="proof-list">
+                    <div class="proof-item"><span class="proof-item__mark" aria-hidden="true">↗</span><div><h3>Dos mercados, una visión</h3><p>Presencia en España y Estados Unidos, con equipos en Valencia y Miami.</p></div></div>
+                    <div class="proof-item"><span class="proof-item__mark" aria-hidden="true">↗</span><div><h3>Especialización sectorial</h3><p>Tecnología, retail y servicios financieros.</p></div></div>
+                    <div class="proof-item"><span class="proof-item__mark" aria-hidden="true">500<span>+</span></span><div><h3>Procesos completados</h3><p>Más de 500 procesos de selección completados.</p></div></div>
+                    <div class="proof-item"><span class="proof-item__mark" aria-hidden="true">2011</span><div><h3>Experiencia construida</h3><p>Desde 2011, impulsando equipos y organizaciones.</p></div></div>
+                </div>
+            </div>
+            <div class="proof-section__index" aria-hidden="true">N / 01</div>
+        </section>
+
+        <section class="contact-section" id="contacto" aria-labelledby="contact-title">
+            <div class="contact-section__inner">
+                <div class="contact-copy">
+                    <p class="eyebrow"><span class="eyebrow__line"></span> El siguiente paso</p>
+                    <h2 id="contact-title">Hagamos crecer lo que viene.</h2>
+                    <p>¿Buscas fortalecer tu equipo? Cuéntanos qué necesitas y nuestro equipo se pondrá en contacto contigo.</p>
+                    <a class="button button--teal" href="mailto:contacto@nexova.com">Hablemos de tu equipo <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="contact-details">
+                    <a class="contact-email" href="mailto:contacto@nexova.com">contacto@nexova.com <span aria-hidden="true">↗</span></a>
+                    <div class="office-grid">
+                        <div><span class="office-label">España</span><h3>Valencia</h3><a href="tel:+34960123456">+34 960 123 456</a></div>
+                        <div><span class="office-label">Estados Unidos</span><h3>Miami</h3><a href="tel:+13055550191">+1 305 555 0191</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__top"><a class="brand-lockup brand-lockup--footer" href="index.html" aria-label="Nexova, inicio"><img class="brand-mark" src="assets/nexova-logo.svg" alt="" width="36" height="36"><span class="brand-name">nexova<span class="brand-dot">.</span></span></a><p>El talento mueve todo lo que viene.</p><div class="footer-socials"><a href="https://linkedin.com/company/nexova" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://instagram.com/nexova" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a></div></div>
+        <div class="site-footer__bottom"><span>© 2025 Nexova. Todos los derechos reservados.</span><span>Valencia · Miami</span></div>
+    </footer>
+    <script src="validation.js" defer></script>
+</body>
+</html>
